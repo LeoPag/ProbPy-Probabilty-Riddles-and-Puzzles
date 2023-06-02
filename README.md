@@ -1,1 +1,1 @@
-# probability-riddles
+# Probability Riddles
