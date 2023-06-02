@@ -1,4 +1,4 @@
-# ProbPy - Probability Puzzles for Data Science and Quantitative Research
+# ProbPy - Probability Riddles and Puzzles
 Welcome to ProbPy - a comprehensive repository dedicated to providing an extensive collection of probability puzzles, riddles, and solutions typically encountered in data science and quantitative research interviews.
 
 ## Description
