@@ -47,16 +47,3 @@ class Simulation(object):
                 "]")
 
 
-"""
-Create the object for the problem
-"""
-
-sim = Simulation()
-
-"""
-Define here the statistical parameters
-"""
-CONFIDENCE = 0.95
-SAMPLES = 10000
-
-sim.get_confidence_interval(CONFIDENCE, SAMPLES)
