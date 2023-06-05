@@ -6,7 +6,7 @@ Penalty shoot-out is used in football to break a tie. Both teams first kick 5 pe
 
 The question we're asking is the following:
 
-**1) Let us define the probability of scoring a penalty as $p$. What is the expected number of penalty turns in a shoot-out?**
+**1) Let us define the probability of scoring a penalty as p. What is the expected number of penalty turns in a shoot-out?**
 
 
 We really encourage you to have a go at the problem before looking at the solution.
