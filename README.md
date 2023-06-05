@@ -14,6 +14,7 @@ The scope of this project includes, but is not limited to, problems related to:
   - Combinatorics and permutations
   - Markov chains and stochastic processes
   - Statistical inference
+  
 The repository's content is carefully crafted and meticulously organized to facilitate easy navigation and efficient learning. 
 
 Share your thoughts, improvements, or requests for specific problems by creating an issue or a pull request. Happy problem-solving!
