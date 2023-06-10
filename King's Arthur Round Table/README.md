@@ -1,5 +1,5 @@
 # King's Arthur Round Table
-Angelo and Leonardo have been invited to King’s Arthur Round Table in Camelot Castle. Arthur asks them to use its sword (the legendary Sword in the Stone indeed) to draw two chords across the table. 
+Angelo and Leonardo have been invited to King’s Arthur Round Table in Camelot Castle. Arthur asks them to use his sword (the legendary Sword in the Stone indeed) to draw two chords across the table. 
 
 **What is the probability that these two chords intercept each other?**
 
