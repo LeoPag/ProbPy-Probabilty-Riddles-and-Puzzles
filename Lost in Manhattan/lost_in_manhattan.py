@@ -202,13 +202,3 @@ class Simulation():
 
 
         return sample_proportion_times_square, sample_proportion_meeting
-
-
-times_square =[2,2]
-angelo = [0,0]
-leo = [4,4]
-
-g = Simulation(times_square, angelo, leo)
-print(len(g.get_paths_A_to_L()))
-print(g.get_paths_L_to_A())
-g.get_confidence_interval(0.95,1000000)
