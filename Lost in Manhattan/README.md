@@ -10,5 +10,5 @@ In particular, we ask you 3 questions.
 Let’s assume Angelo and Leonardo start moving towards each other at the same time. We can also assume that they walk at the same speed. Of course Angelo is only moving north and east, while Leo only goes south and west.
 
 
-2. What is the probability that thy bump into each other at Times Square (7th Avenue, 45th Street)?
+**2. What is the probability that thy bump into each other at Times Square (7th Avenue, 45th Street)?**
 3. What is the probability that they happen to bump into each other?
