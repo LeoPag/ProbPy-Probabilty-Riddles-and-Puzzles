@@ -1,5 +1,7 @@
 # Lost in Manhattan
 
+<img align="right" width="500" src="Images/image1.png">
+
 Angelo and Leonardo are out on a trip in New York City. However, after a few hours they are already struggling with Manhattan grid pattern and they get lost. Leonardo is just coming out of a trip from Rockefeller center and is now located at the intersection between 5th Avenue and 47th Street. Angelo instead happens to be a little be more downtown west at the intersection between 9th Avenue and 43th Street. Can you help them find their way?
 In particular, we ask you 3 questions.
 
