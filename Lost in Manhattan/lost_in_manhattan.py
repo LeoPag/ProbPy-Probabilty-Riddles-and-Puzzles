@@ -105,7 +105,11 @@ class Simulation():
 
 
     """
-    Run a full simulation, with A and L moving toward each other
+    Run a full simulation, with A and L moving towards each other
+
+    Return 1,1:  if A and L bump into each other in Times Square
+    Return 0,1:  if A and L bump into each other (not in Times Square)
+    Return 0,0:  if A and L do not bump into each other.
     """
     def run_simulation(self):
 
