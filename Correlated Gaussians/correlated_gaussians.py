@@ -5,9 +5,10 @@ import matplotlib.pyplot as plt
 
 class Simulation():
 
-    def __init__(self, rho):
+    def __init__(self, rho,N):
 
         self.rho = rho
+        self.N = N
 
 
     def uniform_sampler(self):
@@ -26,25 +27,18 @@ class Simulation():
 
 
 
-    def plot_gaussian(self, n = 100000):
+    def plot_distribition(self, obs):
 
-        gs = []
-
-        for _ in range(n):
-
-            g = self.gaussian_sample()
-            gs.append(g)
-
-        plt.hist(gs,300, density = True)
+        plt.hist(obs,300, density = True)
         plt.show()
 
 
-    def get_observations(self,N):
+    def get_observations(self):
 
         obs_x = []
         obs_y = []
 
-        for _ in range(N):
+        for _ in range(self.N):
 
             z1 = self.gaussian_sample()
             z2 = self.gaussian_sample()
@@ -101,13 +95,7 @@ class Simulation():
 
         return cov_xy / (np.sqrt(var_x*var_y))
 
-    def simulate_pearson(self):
+    def get_pearson(self, obs_x,obs_y):
 
-        obs_x, obs_y = self.get_observations(10000)
-        print(self.estimate_pearson(obs_x,obs_y))
+        print("Pearson coefficient on the samples: ", self.estimate_pearson(obs_x,obs_y))
 
-
-
-s = Simulation(0.4)
-s.simulate_pearson()
-#s.plot_gaussian()
