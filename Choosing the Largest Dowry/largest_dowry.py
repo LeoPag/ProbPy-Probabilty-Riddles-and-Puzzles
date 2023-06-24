@@ -85,7 +85,8 @@ class Simulation(object):
                 sample_proportion_rights - z_alpha_halved * (np.sqrt(sample_variance) /  np.sqrt(n_simulations)) ,
                 sample_proportion_rights + z_alpha_halved * (np.sqrt(sample_variance) /  np.sqrt(n_simulations)),
                 "]")
-        #return self.find_optimal_l(), observations
+        
+        return optimal_l, observations
 
 sim = Simulation(1000)
 sim.get_confidence_interval(0.95,10000)
