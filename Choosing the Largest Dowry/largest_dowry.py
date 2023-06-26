@@ -88,5 +88,4 @@ class Simulation(object):
         
         return optimal_l, observations
 
-sim = Simulation(1000)
-sim.get_confidence_interval(0.95,10000)
+
